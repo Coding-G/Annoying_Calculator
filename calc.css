@@ -1,0 +1,41 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: antiquewhite;
+}
+#calc {
+    border-width: 0px;
+    border-style: solid;
+    width: fit-content;
+    justify-self: center;
+    vertical-align: middle;
+}
+.btn {
+    background-color: coral;
+    color: antiquewhite;
+    width: 120px;
+    height: 120px;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 70px;
+    
+}
+#inputBox {
+    background-color: rgb(211, 255, 240);
+    color: navy;
+    border-width: 5px;
+    border-color: black;
+    border-radius: 60px;
+    border-style: solid;
+    width: 480px;
+    height: 120px;
+    font-size: 60px;
+    text-align: center;
+}
+#Answer {
+    position: absolute;
+}
